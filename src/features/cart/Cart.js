@@ -15,7 +15,7 @@ const handleSelect=(e,id)=>{
   return (
     <div className='cart'>
       {items.map((item, index) => (
-        <div className='cart-item'>
+        <div className='cart-item' key={index}>
           <img src={item.thumbnail} alt={item.title} />
           <div className='description'>
             <span>{item.brand}</span>

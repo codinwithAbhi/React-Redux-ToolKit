@@ -13,7 +13,7 @@ export function Products () {
   return (
     <div className='row'>
       {products.map((product, index) => (
-        <div key={products.id} className='card col-md-5'>
+        <div key={index} className='card col-md-5'>
           <img src={product.thumbnail} alt={product.title}  style={{ height: '200px', width: '100%' }} />
           <h1>{product.title}</h1>
           <p className='price'>${product.price}</p>
