@@ -14,12 +14,14 @@ function App() {
   }, [])
   return (
     <div className='App'>
-     <div className="cart-icon" onClick={() => setShowCart(!showCart)}>
+
+      <div className="cart-icon" onClick={() => setShowCart(!showCart)}>
         <i className="fas fa-shopping-cart" style={{ fontSize: "80px" }}></i>
         <sup className="cart-count">{items.length}</sup>
       </div>
-
-      {showCart ? <Cart /> : <Products />}
+      <div >
+        {showCart ? <Cart /> : <Products />}
+      </div>
     </div>
   )
 }

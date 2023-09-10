@@ -31,20 +31,24 @@
   0% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(10px);
   }
+
   100% {
     transform: translateY(0px);
   }
 }
+
 /* App.css */
 
 .cart-icon {
+  position: fixed !important;
+  z-index: 1;
   cursor: pointer;
-  text-align: center;
+  text-align: end;
   margin: 20px;
-  position: relative;
 }
 
 .cart-count {
