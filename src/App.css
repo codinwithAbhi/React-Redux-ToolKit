@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin-top: 20px;
 }
 
 .App-logo {
@@ -36,4 +37,24 @@
   100% {
     transform: translateY(0px);
   }
+}
+/* App.css */
+
+.cart-icon {
+  cursor: pointer;
+  text-align: center;
+  margin: 20px;
+  position: relative;
+}
+
+.cart-count {
+  position: absolute;
+  top: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 100%;
+  padding: 10px 8px;
+  font-size: 17px;
+  font-weight: bold;
+  height: 25px;
 }

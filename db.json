@@ -571,6 +571,15 @@
       "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
       "price": 899,
       "quantity": 1
+    },
+    {
+      "id": 4,
+      "title": "OPPOF19",
+      "brand": "OPPO",
+      "description": "OPPO F19 is officially announced on April 2021.",
+      "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
+      "price": 280,
+      "quantity": 1
     }
   ]
 }
