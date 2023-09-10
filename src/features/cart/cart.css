@@ -1,0 +1,68 @@
+/* cart.css */
+
+/* Style the overall cart container */
+.cart {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Adjust the gap between cart items */
+  margin: 20px; /* Add some margin for spacing */
+}
+
+/* Style individual cart items */
+.cart-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+/* Style the product image */
+.cart-item img {
+  max-width: 100px; /* Adjust the maximum width of the image */
+  height: auto;
+  margin-right: 10px; /* Add some spacing between image and description */
+}
+
+/* Style the description section */
+.description {
+  flex: 1; /* Allow the description section to grow to fill available space */
+}
+
+.description p {
+  font-weight: bold;
+  margin: 0;
+}
+
+.description span {
+  color: #777;
+}
+
+.description strong {
+  font-size: 18px; /* Adjust the font size of the price */
+  color: #007bff; /* Adjust the price color */
+}
+
+/* Style the quantity section */
+.quantity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px; /* Add some spacing between quantity and close button */
+}
+
+.quantity select {
+  padding: 5px;
+}
+
+/* Style the close button */
+.close button {
+  background-color: transparent;
+  border: none;
+  color: #d9534f; /* Adjust the close button color */
+  cursor: pointer;
+}
+
+.close button:hover {
+  color: #c9302c; /* Adjust the hover color */
+}
